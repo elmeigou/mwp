@@ -1,0 +1,147 @@
+.container-div {
+	width:780px;
+	height: 1000px;
+	padding: 0px;
+	background:#33cccc  ;
+	overflow: left;
+	}
+
+.form-container {
+	padding: 5px;
+	float: left;
+	text-align: center;
+	background:#47d1d1;
+	}
+
+#style-div-1 {
+	margin: 17px 5px 0px 30px;
+	width: 335px;
+    height: 460px;
+    font-family: Galada;
+	font-size: 24px ;
+	line-height: 10px;
+	}
+
+.style-div-2 {
+	padding: 5px;
+	float: left;
+	text-align: center;
+	margin: 17px 5px 0px 5px;
+	width: 355px;
+    height: 270px;
+    font-family: Kaushan Script;
+	font-size: 25px ;
+	line-height: 30px;
+	}
+	
+#style-div-3 {
+	margin: 10px 5px 0px 5px;
+	width:  355px;
+    height: 75px;
+    font-family: Oswald;
+    text-shadow: 8px 8px #000000;
+	}
+
+#style-div-4 {
+	margin: 10px 5px 0px 5px;
+	width: 355px;
+    height: 75px;
+    font-family: Anton;
+    font-size: 15px;
+	font-weight:bold;
+	}
+
+#style-div-5 {
+	margin: 17px 5px 0px 30px;
+	width: 710px;
+    height: 115px;
+    font-family: Stalemate;
+	font-size: 35px ;
+	line-height: 15px;
+	padding: 0px 5px 20px 5px;
+	letter-spacing: 2px;
+	word-spacing: 6px; 
+	}
+
+#style-div-6 {
+	margin: 17px 5px 0px 30px;
+	width: 710px;
+    height: 75px;
+    font-family: Permanent Marker;
+	font-size: 30px ;
+	line-height: 35px;	
+	}
+
+#style-div-7 {
+	margin: 17px 5px 0px 30px;
+	width: 710px;
+    height: 100px;
+    padding: 5px;
+	font-size: 40px ;
+	line-height: 35px;
+    font-family:Romanesco;
+	}
+
+.style-div-8 {
+	background: #33cccc;
+    width: 340px;
+    height: 100px;
+    padding: 5px;
+    margin: 9px 1px 1px 30px;
+    float: left;
+    text-align:center;
+    font-family: Shadows Into Light;
+	font-size: 20px ;
+	font-weight:bold;
+	line-height: 30px;	
+	word-spacing: -5px; 
+	}
+.style-div-9 {
+	background: #33cccc;
+    width: 355px;
+    height: 108px;
+    padding: 1px ;
+    margin: 9px 10px 1px 12px;
+    float: left;
+    text-align:center;
+    font-family: Shadows Into Light;
+	font-size: 20px ;
+	font-weight:bold;
+	line-height: 30px;	
+	word-spacing: -5px; 
+	}
+.underline{
+	text-decoration: underline;
+}	
+
+.underline-2{
+	text-decoration: underline;
+	 font-family: Kaushan Script;
+}
+
+.font-Kaushan {  
+	font-family: Kaushan Script;
+	font-size: 30px ;
+	line-height: 40px; } 
+.emphasis-1 {
+	font-style: italic; 
+	line-height: 30px;
+	color: green;
+}
+.emphasis-2 {
+	font-family: Pacifico; 
+	font-size: 30px ;
+	line-height: 40px;
+	color: green;
+	text-decoration:underline;
+}
+.emphasis-3 {
+	font-family: Quattrocento;
+	font-size: 30px ;
+	line-height: 35px;	
+}
+.emphasis-4 {
+	font-family: Romanesco;
+	font-size: 80px ;
+	line-height: 35px;	
+}

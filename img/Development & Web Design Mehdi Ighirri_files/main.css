@@ -1,0 +1,214 @@
+.global-nav {
+height: 65px;
+width: 1483px;	
+background-color: #001a1a;
+padding: 0px;
+
+}
+
+body {
+    
+  
+}
+
+#about, #portfolio, #contact {
+   
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1483px;
+    margin: 0;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+nav {
+	height: 45px;
+    float: right;
+    padding: 0px;
+    margin: 10px;
+    justify-content: center;
+}
+
+nav ul{
+	display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 0px;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e6ffff;
+    padding: 22.5px;
+    justify-content: center;
+}
+
+
+header {
+	height: 800px;
+	background: url('../img/hero-background2.jpg'); 
+	background-size: cover; 
+}
+
+
+header h1 {
+    width: 1000px;
+    height: 200px;	
+    padding-top: 230px;
+    padding-left: 150px;
+    clear: both;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    justify-content: center;
+    font-size: 72px;
+    line-height: 80px;
+    color: #e6ffff;
+    
+}
+header h1 span {
+    color: #fa0075;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header h2 {
+	padding: 10px;
+	padding-left: 33px;
+	margin: 0px;
+	width: 600px;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	float: left;
+}
+
+
+main h2 {
+	margin: 0px;
+	color: #fa0075;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+#portfolio{
+	height: 1520px;
+	width: 1483px;
+	background: #1f202b;
+	padding-top: 30px;
+
+}
+
+#portfolio p{
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	width:700px;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+}
+
+
+#portfolio h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	width:700px;
+	margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+	
+}
+
+
+#about{
+	height: 520px;
+	width: 1483px;
+	background: url('../img/about-me2.jpg'); 
+	padding-top: 30px;
+
+}
+
+
+#contact{
+	height: 370px;
+	width: 1483px;
+	background: #1f202b;
+	padding-top: 30px;
+
+}
+
+
+
+
+.third-top{
+	height: 460px;
+	width:1500px;
+	background: url('../img/rogue-pickings-thumbnail.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+}
+
+
+
+.right-text{
+	width:600px;
+	margin-left: 0px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+	line-height: 220px;
+	
+
+}
+
+#portfolio img#right-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #b7b7b7;
+    float: left;
+  
+}
+
+
+#portfolio img#left-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #b7b7b7;
+    width: 700px;
+    float: left;
+}

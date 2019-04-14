@@ -1,25 +1,15 @@
 .global-nav {
 height: 65px;
-width: 1483px;	
-background-color: #1f202b;
+width: 1480px;	
+background-color: #001a1a;
 padding: 0px;
 
 }
 
-body {
-    
-  
-}
-
-#about, #portfolio, #contact {
-   
-}
-
-
 /****** GRID ******/
 
 .full-width {
-    width: 1483px;
+    width: 1480px;
     margin: 0;
 }
 .half-width {
@@ -31,6 +21,7 @@ body {
     float: left;
 }
 
+/****** head ******/
 
 nav {
 	height: 45px;
@@ -56,10 +47,10 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
-    font-family: 'Montserrat' ;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 30px;
-    color: #ffffff;
+    color: #e6ffff;
     padding: 22.5px;
     justify-content: center;
 }
@@ -67,6 +58,7 @@ nav ul li a {
 
 header {
 	height: 800px;
+	width: 1480px;
 	background: url('../img/hero-background.png'); 
 	background-size: cover; 
 }
@@ -78,17 +70,17 @@ header h1 {
     padding-top: 230px;
     padding-left: 150px;
     clear: both;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto Mono', monospace;
     text-align: left;
     justify-content: center;
     font-size: 72px;
     line-height: 80px;
-    color: #ffffff;
+    color: #e6ffff;
     
 }
 header h1 span {
     color: #fa0075;
-    font-family: 'Source Code Pro';
+    font-family: 'Roboto Mono', monospace;
 }
 
 header h2 {
@@ -97,50 +89,241 @@ header h2 {
 	margin: 0px;
 	width: 600px;
 	font-size: 30px;
-	font-family: 'Montserrat';
-	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
 	float: left;
 }
 
 
-
-#portfolio{
-	height: 1520px;
-	width: 1483px;
-	background: #1f202b;
-	padding-top: 30px;
-
-}
-
 main h2 {
 	margin: 0px;
 	color: #fa0075;
-    font-family: 'Source Code Pro';
+    font-family: 'Roboto Mono', monospace;
     font-size: 36px;
     text-align: center;
 }
 
+/****** portfolio ******/
 
-#about{
-	height: 520px;
-	width: 1483px;
-	background: url('../img/about-me.png'); 
+#portfolio{
+	height: 1520px;
+	width: 1480px;
+	background: #001a1a;
 	padding-top: 30px;
 
 }
 
+#portfolio p{
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	font-size: 24px;
+	font-weight: bold;
+	width:700px;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+	padding-top: 10px; 
+	line-height: 40px;
+}
+
+
+#portfolio h3{
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	font-size: 30px;
+	width:700px;
+	margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+	line-height: 32px;
+}
+
+
+.third-top{
+	height: 460px;
+	width:1300px;
+	/*background: url('../img/rogue-pickings-thumbnail.png');*/
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+.third-mid{
+	height: 460px;
+	width:1300px;
+	/*background: url('../img/holstee-thumbnail.png');*/
+	background-position: right;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+
+}
+
+
+.third-buttom{
+	height: 460px;
+	width:1300px;
+	/*background: url('../img/jubilee-thumbnail.png');*/
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+}
+
+
+.right-text{
+	width:700px;
+	padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+
+}
+
+.left-text{
+	width:700px;
+	margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: left;
+
+}
+
+#portfolio img#right-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #b7b7b7;
+    float: left;
+  
+}
+
+
+#portfolio img#left-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #b7b7b7;
+    width: 700px;
+    float: left;
+}
+
+
+/****** about ******/
+
+#about{
+	height: 550px;
+	width: 1480px;
+	background: url('../img/about-me222.jpg'); 
+	padding-top: 30px;
+
+}
+
+
+.about-text{
+	width:700px;
+	margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: left;
+}
+
+
+#about h3{
+	font-family: 'Lato', sans-serif;
+	color: #ffe6cc;
+	font-size: 30px;
+	width:700px;
+	margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	text-align: : center;
+	float: right;
+	line-height: 32px;
+}
+
+#about p{
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	font-size: 24px;
+	font-weight: bold;
+	width:700px;
+	text-align: : center;
+	float: right;
+	padding-top: 10px; 
+	line-height: 30px;
+}
+
+/****** contact ******/
 
 #contact{
 	height: 370px;
-	width: 1483px;
+	width: 1480px;
 	background: #1f202b;
 	padding-top: 30px;
+	text-align: center;
 
 }
 
 
+.contact-right{
+	width: 300px;
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	float: left;
+	padding-top: 30px; 
+	padding-left: 30px; 
+	line-height: 30px;
+	}
 
+.contact-middle{
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	float: left;
+	padding-top: 30px; 
+	line-height: 30px;
+	}
 
-.third-height{
+.contact-left{
+	width: 400px;
+	font-family: 'Lato', sans-serif;
+	color: #e6ffff;
+	float: left;
+	padding-top: 30px; 
+	padding-left: 30px; 
+	line-height: 30px;
+	}		
+
+#contact a{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}	
+
+#contact h3{
+	padding: 10px;
+	font-size: 24px;
+	font-weight: bold;
+
+}	
+
+#contact p{
+	padding: 10px;
+	font-size: 20px;
 
 }
